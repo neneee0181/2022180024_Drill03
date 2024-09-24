@@ -3,10 +3,13 @@ from pico2d import *
 open_canvas()
 
 grass = load_image('grass.png')
-character = load_image('run_animation.png')
+boy = load_image('run_animation.png')
 
 def run_circle():
     print("CIRCLE")
+    clear_canvas_now()
+    boy.draw_now(400,300)
+    delay(0.1)
     pass
 
 def run_rectangle():
