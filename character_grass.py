@@ -55,8 +55,21 @@ def run_rectangle():
     run_left()
     pass
 
+def run_left_line():
+    print("left_line")
+    pass
+def run_right_line():
+    print("right_line")
+    pass
+def run_bottom_line():
+    print("bottom_line")
+    pass
+
 def run_triangle():
     print("TRIANGLE")
+    run_left_line()
+    run_right_line()
+    run_bottom_line()
     pass
 
 # fill here
