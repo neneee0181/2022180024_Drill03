@@ -22,9 +22,25 @@ def run_circle():
 
     pass
 
+def run_top():
+    print("TOP")
+    pass
+def run_right():
+    print("RIGHT")
+    pass
+def run_bottom():
+    print("BOTTOM")
+    pass
+def run_left():
+    print("LEFT")
+    pass
 
 def run_rectangle():
     print("RECTANGLE")
+    run_top()
+    run_right()
+    run_bottom()
+    run_left()
     pass
 
 
